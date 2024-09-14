@@ -9,12 +9,10 @@
     --primary-shadow-color:rgba(253, 116, 54, 0.08);
 }
 
-/* ! Header Section Start */
+/* ! Hero Section Start */
 header{
     background-color: var(--primary-color);
 }
-/* ! Header Section End */
-/* ! Hero Section Start */
 .hero-section{
     background-color: var(--primary-color);
 }
@@ -67,3 +65,63 @@ header{
     font-size: 20px;
 }
 /* ! Calming Presence Section End */
+
+/* ! Features Overview Section Start */
+/* .mid-box{
+    background: url("../assets/mid-box.svg") no-repeat;
+    width: 100%;
+    height: 100%;
+} */
+
+.feature_content{
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+}
+
+.feature_content h3{
+    font-size: 54px;
+}
+.feature_content .numbering{
+    font-size: 74px;
+    color: rgba(255, 255, 255,0.4);
+}
+.feature_content p{
+    font-size: 20px;
+}
+.feature_content .featureCard{
+    border-radius: 40px;
+    border: 1px dashed var(--primary-color);
+}
+.featureCard h5{
+    font-size: 30px;
+    color: var(--primary-color);
+}
+/* ! Features Overview Section End */
+/* ! Daily Motivational Messages Section Start */
+.motivationMockup{
+    right: -1.6%;
+}
+.numbering2{
+    font-size: 74px;
+    color: rgba(0, 0, 0,0.4);
+}
+.feature_content-2  h4{
+    color: var(--primary-color);
+}
+/* ! Daily Motivational Messages Section End */
+
+/* .howItWorks{
+    background: url("../assets/mid-box3.svg") no-repeat;
+    background-size: 100%;
+    height: 700px;
+} */
+.howItWorks h3{
+    font-size: 94px;
+}
+.howItWorks h3 span{
+    color: var(--primary-color);
+}
+.howItWorks img{
+    /* transform: rotateX(180deg); */
+}
