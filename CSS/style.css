@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+*{
+    font-family: "Baloo 2", sans-serif;
+}
+
+:root{
+    --primary-color:#FD7436;
+    --primary-shadow-color:rgba(253, 116, 54, 0.08);
+}
+
+/* ! Header Section Start */
+header{
+    background-color: var(--primary-color);
+}
+/* ! Header Section End */
+/* ! Hero Section Start */
+.hero-section{
+    background-color: var(--primary-color);
+}
+.hero-heading{
+    font-size: 62px;
+}
+.curve{
+    padding-top: 10px;
+}
+/* ? Shape Divider Start */
+
+.custom-shape-divider-bottom-1726298099 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1726298686 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 132px;
+}
+
+.custom-shape-divider-bottom-1726298686 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* ? Shape Divider End */
+
+/* ! Hero Section End */
+/* ! Calming Presence Section Start */
+.calmingPresence{
+    color: var(--primary-color);
+}
+.calming_card{
+    border-radius: 40px;
+    border: 1px dashed var(--primary-color);
+    background-color: var(--primary-shadow-color);
+}
+.calming_card h4{
+    font-size: 30px;
+    color: var(--primary-color);
+}
+.calming_card p{
+    font-size: 20px;
+}
+/* ! Calming Presence Section End */
