@@ -10,12 +10,19 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/responsive.css">
     <title>Zenvi | Unlock the power of thinking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <!-- ! Hero Section Start -->
     <header class="container-fluid pt-5 position-relative">
-        <img class="position-absolute top-0 end-0" src="assets/hero_decor.svg" alt="">
+        <img class="position-absolute top-0 end-0" src="assets/decoration.svg" alt="">
         <nav class="container">
             <img src="assets/zenvi_logo.svg" alt="Zenvi Logo">
         </nav>
@@ -367,40 +374,44 @@
                 <h3 class="fw-normal"><span class="fw-bold">Why</span><br> Choose Zenvi?</h3>
             </div>
             <div class="d-flex gap-3 container px-5">
-                <div class="whyChooseCard px-3 py-4">
-                    <div class="text-white text-center">
-                        <h4 class="fw-bold">Personalized
-                            <br>Approach
-                        </h4>
-                        <p>No two mental health journeys are alike, which is why Zenvi provides tailored messages and
-                            reminders that speak directly to you.</p>
+                <div id="whyChooseSlider" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="whyChooseCard px-3 py-4">
+                            <div class="text-white text-center">
+                                <h4 class="fw-bold">Personalized
+                                    <br>Approach
+                                </h4>
+                                <p>No two mental health journeys are alike, which is why Zenvi provides tailored
+                                    messages and
+                                    reminders that speak directly to you.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="whyChooseCard px-3 py-4">
+                            <div class="text-white text-center">
+                                <h4 class="fw-bold">Personalized
+                                    <br>Approach
+                                </h4>
+                                <p>No two mental health journeys are alike, which is why Zenvi provides tailored
+                                    messages and
+                                    reminders that speak directly to you.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="whyChooseCard px-3 py-4">
+                            <div class="text-white text-center">
+                                <h4 class="fw-bold">Personalized
+                                    <br>Approach
+                                </h4>
+                                <p>No two mental health journeys are alike, which is why Zenvi provides tailored
+                                    messages and
+                                    reminders that speak directly to you.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="whyChooseCard px-3 py-4">
-                    <div class="text-white text-center">
-                        <h4 class="fw-bold">Personalized
-                            <br>Approach
-                        </h4>
-                        <p>No two mental health journeys are alike, which is why Zenvi provides tailored messages and
-                            reminders that speak directly to you.</p>
-                    </div>
-                </div>
-                <div class="whyChooseCard px-3 py-4">
-                    <div class="text-white text-center">
-                        <h4 class="fw-bold">Personalized
-                            <br>Approach
-                        </h4>
-                        <p>No two mental health journeys are alike, which is why Zenvi provides tailored messages and
-                            reminders that speak directly to you.</p>
-                    </div>
-                </div>
-                <!-- <div class="whyChooseCard px-3 py-4">
-                    <div class="text-white text-center">
-                        <h4 class="fw-bold">Personalized
-                            <br>Approach</h4>
-                        <p>No two mental health journeys are alike, which is why Zenvi provides tailored messages and reminders that speak directly to you.</p>
-                    </div>
-                </div> -->
             </div>
         </section>
         <!-- ! Why Choose Section End -->
@@ -473,25 +484,36 @@
         <section class=" howItWorks container-fluid pb-5 px-0 position-relative">
             <div class="container px-5">
                 <h3 class="fw-normal"><span class="fw-bold">FAQ’s?</span></h3>
-                <div class="d-flex gap-3 position-relative">
+                <div class="faqBox d-flex gap-3 position-relative">
                     <button class="leftArrowBtn position-absolute p-4 "><img src="assets/arrowBtn.svg" alt=""></button>
-                    <div class="clientCard faqCard ps-5 px-4 py-4 text-center">
-                        <h5 class="fw-bold">What is Zenvi?</h5>
-                        <p class="fw-normal text-center">Zenvi is a mental health app designed to support individuals
-                            battling anxiety, depression, and stress. It offers personalized messages, calming tools,
-                            and progress tracking to help you on your journey to better mental health.</p>
-                    </div>
-                    <div class="clientCard faqCard px-4 py-4 text-center">
-                        <h5 class="fw-bold"> Is Zenvi free to use?</h5>
-                        <p class="fw-normal text-center">Yes! Zenvi offers a free version with access to daily
-                            motivational messages, calming widgets, and progress tracking. However, for a deeper
-                            experience, Zenvi Premium offers advanced features.</p>
-                    </div>
-                    <div class="clientCard faqCard px-4 py-4 text-center">
-                        <h5 class="fw-bold">How does Zenvi personalize my experience?</h5>
-                        <p class="fw-normal text-center">When you sign up, Zenvi asks you a few questions about your
-                            mental health goals and challenges. Based on your responses, it tailors motivational
-                            messages, reminders, and tools to fit your needs.</p>
+                    <div id="faqSlider" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="clientCard faqCard ps-5 px-4 py-4 text-center">
+                                <h5 class="fw-bold">What is Zenvi?</h5>
+                                <p class="fw-normal text-center">Zenvi is a mental health app designed to support
+                                    individuals
+                                    battling anxiety, depression, and stress. It offers personalized messages, calming
+                                    tools,
+                                    and progress tracking to help you on your journey to better mental health.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="clientCard faqCard pb-5 px-4 py-4 text-center">
+                                <h5 class="fw-bold"> Is Zenvi free to use?</h5>
+                                <p class="fw-normal text-center">Yes! Zenvi offers a free version with access to daily
+                                    motivational messages, calming widgets, and progress tracking. However, for a deeper
+                                    experience, Zenvi Premium offers advanced features.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="clientCard faqCard px-4 py-4 text-center">
+                                <h5 class="fw-bold">How does Zenvi personalize my experience?</h5>
+                                <p class="fw-normal text-center">When you sign up, Zenvi asks you a few questions about
+                                    your
+                                    mental health goals and challenges. Based on your responses, it tailors motivational
+                                    messages, reminders, and tools to fit your needs.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -518,6 +540,12 @@
         </div>
     </footer>
     <!-- ! Footer Section End -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
