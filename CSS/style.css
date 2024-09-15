@@ -1,127 +1,283 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
 
-*{
-    font-family: "Baloo 2", sans-serif;
+* {
+  font-family: "Baloo 2", sans-serif;
+  list-style: none;
 }
 
-:root{
-    --primary-color:#FD7436;
-    --primary-shadow-color:rgba(253, 116, 54, 0.08);
+:root {
+  --primary-color: #fd7436;
+  --primary-shadow-color: rgba(253, 116, 54, 0.08);
 }
 
 /* ! Hero Section Start */
-header{
-    background-color: var(--primary-color);
+header {
+  background-color: var(--primary-color);
 }
-.hero-section{
-    background-color: var(--primary-color);
+
+.hero-section {
+  background-color: var(--primary-color);
 }
-.hero-heading{
-    font-size: 62px;
+
+.hero-heading {
+  font-size: 62px;
 }
-.curve{
-    padding-top: 10px;
+
+.curve {
+  padding-top: 10px;
 }
+
 /* ? Shape Divider Start */
 
 .custom-shape-divider-bottom-1726298099 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    background-color: transparent;
-    line-height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: transparent;
+  line-height: 0;
 }
 
 .custom-shape-divider-bottom-1726298686 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 132px;
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 132px;
 }
 
 .custom-shape-divider-bottom-1726298686 .shape-fill {
-    fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 /* ? Shape Divider End */
 
 /* ! Hero Section End */
 /* ! Calming Presence Section Start */
-.calmingPresence{
-    color: var(--primary-color);
+.rightLeaf {
+  top: -5%;
+  left: 0%;
 }
-.calming_card{
-    border-radius: 40px;
-    border: 1px dashed var(--primary-color);
-    background-color: var(--primary-shadow-color);
+
+.calmingPresence {
+  color: var(--primary-color);
 }
-.calming_card h4{
-    font-size: 30px;
-    color: var(--primary-color);
+
+.calming_card {
+  border-radius: 40px;
+  border: 1px dashed var(--primary-color);
+  background-color: var(--primary-shadow-color);
 }
-.calming_card p{
-    font-size: 20px;
+
+.calming_card h4 {
+  font-size: 30px;
+  color: var(--primary-color);
 }
+
+.calming_card p,
+.workCard p,
+.clientCard span,
+.whyChooseCard p {
+  font-size: 20px;
+}
+
 /* ! Calming Presence Section End */
 
 /* ! Features Overview Section Start */
-/* .mid-box{
-    background: url("../assets/mid-box.svg") no-repeat;
-    width: 100%;
-    height: 100%;
-} */
-
-.feature_content{
-    top: 50%;
-    left: 0;
-    transform: translate(0%,-50%);
+.feature_content {
+  top: 50%;
+  left: 0;
+  transform: translate(0%, -50%);
 }
 
-.feature_content h3{
-    font-size: 54px;
+.feature_content h3 {
+  font-size: 54px;
 }
-.feature_content .numbering{
-    font-size: 74px;
-    color: rgba(255, 255, 255,0.4);
+
+.feature_content .numbering {
+  font-size: 74px;
+  color: rgba(255, 255, 255, 0.4);
 }
-.feature_content p{
-    font-size: 20px;
+
+.feature_content p {
+  font-size: 20px;
 }
-.feature_content .featureCard{
-    border-radius: 40px;
-    border: 1px dashed var(--primary-color);
+
+.feature_content .featureCard {
+  border-radius: 40px;
+  border: 1px dashed var(--primary-color);
 }
-.featureCard h5{
-    font-size: 30px;
-    color: var(--primary-color);
+
+.featureCard h5 {
+  font-size: 30px;
+  color: var(--primary-color);
 }
+
 /* ! Features Overview Section End */
 /* ! Daily Motivational Messages Section Start */
-.motivationMockup{
-    right: -1.6%;
+.motivationMockup {
+  right: -1.6%;
 }
-.numbering2{
-    font-size: 74px;
-    color: rgba(0, 0, 0,0.4);
-}
-.feature_content-2  h4{
-    color: var(--primary-color);
-}
-/* ! Daily Motivational Messages Section End */
 
-/* .howItWorks{
-    background: url("../assets/mid-box3.svg") no-repeat;
-    background-size: 100%;
-    height: 700px;
-} */
-.howItWorks h3{
-    font-size: 94px;
+.numbering2 {
+  font-size: 74px;
+  color: rgba(0, 0, 0, 0.4);
 }
-.howItWorks h3 span{
-    color: var(--primary-color);
+
+.feature_content-2 h4 {
+  color: var(--primary-color);
 }
-.howItWorks img{
-    /* transform: rotateX(180deg); */
+
+/* ! Daily Motivational Messages Section End */
+/* ! How Zenvi Works Section Start */
+.howItWorks h3 {
+  font-size: 94px;
 }
+
+.howItWorks h3 span {
+  color: var(--primary-color);
+}
+
+.howWorkDiv {
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.workCard {
+  border-radius: 40px;
+  border: 3px dashed rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.64);
+  backdrop-filter: blur(3px);
+}
+
+.workCard h4 {
+  font-size: 26px;
+}
+
+/* ! How Zenvi Works Section End */
+/* ! Testimonial Section Start */
+.rightLeaf2 {
+  top: 10%;
+}
+
+.testimonialHeading h3 {
+  font-size: 62px;
+}
+
+.testimonialHeading h3 span {
+  color: var(--primary-color);
+}
+
+.testimonialHeading p {
+  font-size: 18px;
+}
+
+.clientCard {
+  border-radius: 40px;
+  border: 1px dashed var(--primary-color);
+  background-color: rgba(253, 116, 54, 0.08);
+  padding-bottom: 98px;
+  padding-top: 60px;
+}
+
+.clientCard .clientInfo {
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%);
+}
+
+.clientCard p {
+  font-size: 18px;
+}
+
+.clientCard h5 {
+  font-size: 32px;
+}
+
+.clientCard .quote {
+  top: -15%;
+  left: 10%;
+}
+
+/* ! Testimonial Section End */
+
+/* ! Why Choose Section Start */
+.whyChooseCard {
+  background-color: var(--primary-color);
+  border-radius: 40px;
+}
+
+.whyChooseCard h4 {
+  font-size: 26px;
+}
+
+.whyLeaf {
+  top: 10%;
+}
+
+/* ! Why Choose Section End */
+/* ! Subscription Plans Section Start */
+.numbering3 {
+  font-size: 36px;
+}
+
+.subscription_Plans h4 {
+  font-size: 70px;
+}
+
+/* ! Subscription Plans Section End */
+/* ! Take Control Section Start */
+.takeControl {
+  background-color: var(--primary-color);
+  border-radius: 60px;
+}
+
+.takeControl h3 {
+  font-size: 48px;
+}
+
+.takeControl p {
+  font-size: 24px;
+}
+
+.takeControl .takeControl-items1 {
+  flex-basis: 70%;
+}
+
+.takeControl .takeControl-items2 {
+  flex-basis: 30%;
+}
+
+/* ! Take Control Section End */
+/* ! FAQs Section Start */
+.faqCard h5 {
+  font-size: 26px;
+}
+
+.leftArrowBtn {
+  border-radius: 25px;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  box-shadow: 0px 4px 10px rgba(253, 116, 54, 0.3);
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+}
+
+/* ! FAQs Section Start */
+/* ! Footer Section Start */
+.footer1 {
+  background-color: var(--primary-color);
+}
+
+.footer1 .TandC {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.footer2 h5 {
+  font-size: 30px;
+}
+
+/* ! Footer Section End */
