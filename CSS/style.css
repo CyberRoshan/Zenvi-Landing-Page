@@ -240,6 +240,9 @@ header {
 .whyLeaf {
   top: 10%;
 }
+#whyChooseSlider .owl-prev {
+  display: none !important;
+}
 
 /* ! Why Choose Section End */
 /* ! Subscription Plans Section Start */
@@ -273,7 +276,10 @@ header {
 .takeControl .takeControl-items2 {
   flex-basis: 30%;
 }
-
+.takeControlImg{
+  position: absolute;
+  bottom: 0;
+}
 /* ! Take Control Section End */
 /* ! FAQs Section Start */
 .owl-nav.disabled {
@@ -285,7 +291,7 @@ header {
   visibility: hidden;
 }
 
-.owl-prev {
+#faqSlider .owl-prev {
   display: block !important;
 }
 

@@ -15,6 +15,16 @@
     width: 80%;
   }
   /* ! Features Overview Section End */
+   /* ! How Zenvi Works Section Start */
+   .howItWorks h3 {
+    font-size: 40px;
+  }
+  /* ! How Zenvi Works Section End */
+  /* ! Footer Section Start */
+  .footer2 h5 {
+  font-size: 18px;
+}
+  /* ! Footer Section End */
 }
 
 @media only screen and (min-width: 200px) and (max-width: 820px) {
@@ -36,6 +46,16 @@
     width: 100%;
   }
   /* ! Features Overview Section End */
+   /* ! How Zenvi Works Section Start */
+   .howItWorks h3 {
+    font-size: 65px;
+  }
+  /* ! How Zenvi Works Section End */
+  /* ! Footer Section Start */
+  .footer2 h5 {
+    font-size: 20px;
+  }
+  /* ! Footer Section End */
 }
 
 @media only screen and (min-width: 200px) and (max-width: 991px) {
@@ -79,4 +99,53 @@
     border-radius: 20px;
   }
   /* ! Features Overview Section End */
+  /* ! How Zenvi Works Section Start */
+  .whyLeaf{
+    top: 0%;
+    right: 0%;
+  }
+  /* ! How Zenvi Works Section End */
+/* ! FAQs Section Start */
+  .leftArrowBtn {
+    top: 40%;
+    left: 2%;
+  }
+/* ! FAQs Section End */
+/* ! Footer Section Start */
+.footer1 .TandC {
+  font-size: 18px;
+}
+/* ! Footer Section End */
+/* ! Take Control Section Start */
+.takeControl {
+  border-radius: 40px;
+}
+
+.takeControl h3 {
+  font-size: 30px;
+}
+
+.takeControl p {
+  font-size: 20px;
+}
+
+.takeControl .takeControl-items1 {
+  flex-basis: 100%;
+}
+
+.takeControl .takeControl-items2 {
+  flex-basis: 100%;
+}
+.downloadItems{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.takeControlImg{
+  position: relative;
+  bottom: 100%;
+  width: 50%;
+}
+
+/* ! Take Control Section End */
 }
