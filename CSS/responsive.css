@@ -20,6 +20,15 @@
     font-size: 40px;
   }
   /* ! How Zenvi Works Section End */
+  /* ! Testimonial Section Start */
+    .clientCard .quote {
+    width: 15%;
+    top: -6%;
+  }
+  .clientCard h5 {
+    font-size: 22px;
+  }
+  /* ! Testimonial Section Start */
   /* ! Footer Section Start */
   .footer2 h5 {
   font-size: 18px;
@@ -29,9 +38,9 @@
 
 @media only screen and (min-width: 200px) and (max-width: 820px) {
   /* ! Features Overview Section Start */
-  .main_features-overview {
+  /* .main_features-overview {
     background-color: #fd7436;
-  }
+  } */
   /* ! Features Overview Section End */
 }
 
@@ -51,6 +60,12 @@
     font-size: 65px;
   }
   /* ! How Zenvi Works Section End */
+  /* ! Testimonial Section Start */
+  .clientCard .quote {
+    width: 15%;
+    top: -15%;
+  }
+  /* ! Testimonial Section End */
   /* ! Footer Section Start */
   .footer2 h5 {
     font-size: 20px;
@@ -76,7 +91,14 @@
   }
   /* ! Calming Presence Section End */
   /* ! Features Overview Section Start */
-  .feature_content h3 {
+  .mobile-grey{
+    background-color: #fd7436;
+  }
+  .feature-numbering{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.4);
+  }
+  /* .feature_content h3 {
     font-size: 34px;
   }
 
@@ -97,14 +119,51 @@
   }
   .feature_content .featureCard {
     border-radius: 20px;
-  }
+  } */
   /* ! Features Overview Section End */
+  /* ! Daily Motivational Messages Section Start */
+  .mobile-motivation{
+    background: #F5F5F5;
+  }
+  .numbering2 {
+    font-size: 50px;
+  }
+  .featureCard h5 {
+    font-size: 20px;
+    color: var(--primary-color);
+  }
+  .feature_content-2 .sub-Plans{
+    color: #939393;
+  }
+  .feature_content-2 h4{
+    font-size: 40px;
+  }
+  /* ! Daily Motivational Messages Section End */
   /* ! How Zenvi Works Section Start */
   .whyLeaf{
     top: 0%;
     right: 0%;
   }
   /* ! How Zenvi Works Section End */
+  /* ! Testimonial Section Start */
+  .testimonialHeading h3{
+    font-size: 40px;
+  }
+  .testimonialHeading p{
+    font-size: 16px;
+  }
+
+  .rightLeaf2 {
+    top: 0%;
+  }
+  .clientCard{
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .clientCard .clientInfo {
+  top: 70%;
+}
+  /* ! Testimonial Section End */
 /* ! FAQs Section Start */
   .leftArrowBtn {
     top: 40%;
