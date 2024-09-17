@@ -179,7 +179,12 @@ header {
 .workCard h4 {
   font-size: 26px;
 }
-
+#zenviWorks .owl-prev {
+  visibility: hidden;
+}
+#zenviWorks .owl-dots .owl-dot.active span {
+  background-color: var(--primary-color);
+}
 /* ! How Zenvi Works Section End */
 /* ! Testimonial Section Start */
 .rightLeaf2 {
@@ -243,6 +248,9 @@ header {
 #whyChooseSlider .owl-prev {
   display: none !important;
 }
+#whyChooseSlider .owl-dots .owl-dot.active span {
+  background-color: var(--primary-color);
+}
 
 /* ! Why Choose Section End */
 /* ! Subscription Plans Section Start */
@@ -276,7 +284,7 @@ header {
 .takeControl .takeControl-items2 {
   flex-basis: 30%;
 }
-.takeControlImg{
+.takeControlImg {
   position: absolute;
   bottom: 0;
 }
@@ -298,19 +306,20 @@ header {
 #faqSlider .owl-prev {
   position: absolute;
   z-index: 99999;
-  top: 50%;
-  left: 0%;
   opacity: 0;
   font-size: 50px;
-  width: 60px;
+  width: 70px;
   border-radius: 25px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid red;
   background-color: var(--primary-color);
   box-shadow: 0px 4px 10px rgba(253, 116, 54, 0.3);
-  padding: 24px;
   top: 50%;
-  left: 0%;
+  left: -1%;
   transform: translate(-50%, -50%);
+}
+
+#faqSlider .owl-dots .owl-dot.active span {
+  background-color: var(--primary-color);
 }
 
 .faqCard h5 {
