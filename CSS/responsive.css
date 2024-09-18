@@ -66,9 +66,6 @@
 }
 
 @media only screen and (min-width: 200px) and (max-width: 991px) {
-  *{
-    overflow-x: hidden !important;
-  }
   /* ! Hero Section Start */
   .hero-heading {
     font-size: 30px;
@@ -177,6 +174,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
   .takeControlImg {
     position: relative;
