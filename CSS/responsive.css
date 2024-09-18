@@ -37,9 +37,6 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 991px) {
-  body{
-    overflow-x: hidden !important;
-  }
   /* ! Hero Section Start */
   .hero-section .downloadInfo {
     justify-content: center;
@@ -69,6 +66,9 @@
 }
 
 @media only screen and (min-width: 200px) and (max-width: 991px) {
+  html, body{
+    overflow-x: hidden !important;
+  }
   /* ! Hero Section Start */
   .hero-heading {
     font-size: 30px;
