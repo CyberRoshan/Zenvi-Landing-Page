@@ -66,6 +66,9 @@
 }
 
 @media only screen and (min-width: 200px) and (max-width: 991px) {
+  *{
+    overflow-x: hidden !important;
+  }
   /* ! Hero Section Start */
   .hero-heading {
     font-size: 30px;
