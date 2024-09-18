@@ -1,3 +1,7 @@
+AOS.init({
+  duration: 1200,
+})
+
 $("#faqSlider").owlCarousel({
   loop: true,
   margin: 30,
