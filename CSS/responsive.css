@@ -66,7 +66,8 @@
 }
 
 @media only screen and (min-width: 200px) and (max-width: 991px) {
-  html, body{
+  html,
+  body {
     overflow-x: hidden !important;
   }
   /* ! Hero Section Start */
@@ -138,15 +139,6 @@
   }
   /* ! Testimonial Section End */
   /* ! FAQs Section Start */
-  .leftArrowBtn {
-    top: 30%;
-    left: 2%;
-  }
-  #faqSlider .owl-prev {
-    width: 50px;
-    top: 30%;
-    left: 1%;
-  }
   /* ! FAQs Section End */
   /* ! Footer Section Start */
   .footer1 .TandC {
