@@ -276,12 +276,35 @@ header {
 
 .whyLeaf {
   top: 10%;
+  right: 0;
 }
 #whyChooseSlider .owl-dots .owl-dot.active span {
   background-color: var(--primary-color);
 }
 
 /* ! Why Choose Section End */
+/* ! Coming Soon Section Start */
+.comingSoon{
+  max-width: 900px;
+  margin: auto;
+  border-radius: 20px;
+  border:  1px dashed var(--primary-color);
+  background-color: var(--primary-shadow-color);
+}
+.comingSoon input{
+  border: 1px solid transparent;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+.comingSoon button{
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  
+}
+/* ! Coming Soon Section End */
 /* ! Subscription Plans Section Start */
 .numbering3 {
   font-size: 36px;
@@ -334,6 +357,38 @@ header {
 }
 
 /* ! FAQs Section End */
+/* ! Contact Us Section Start */
+.contactUsImg{
+  max-width: 455px;
+}
+.ContactHeading h3{
+  font-size: 64px;
+  color: var(--primary-color);
+}
+.ContactHeading h3 span{
+  color: black;
+}
+.ContactHeading p{
+  font-size: 20px;
+}
+.ContactHeading form input ,textarea{
+  border: 1px dashed var(--primary-color);
+  border-radius: 20px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  outline: none;
+  background-color: var(--primary-shadow-color);
+}
+.ContactHeading textarea{
+  resize: none;
+}
+.ContactHeading button{
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+/* ! Contact Us Section End */
 /* ! Footer Section Start */
 .footer1 {
   background-color: var(--primary-color);

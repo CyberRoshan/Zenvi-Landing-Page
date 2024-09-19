@@ -29,6 +29,16 @@
     font-size: 22px;
   }
   /* ! Testimonial Section Start */
+  /* ! Coming Soon Section Start */
+  .comingSoon input{
+    width: 50%;
+  }
+  /* ! Coming Soon Section End */
+  /* ! Contact Us Section Start */
+  .ContactHeading h3{
+    font-size: 22px;
+  }
+  /* ! Contact Us Section End */
   /* ! Footer Section Start */
   .footer2 h5 {
     font-size: 18px;
@@ -138,8 +148,32 @@
     top: 70%;
   }
   /* ! Testimonial Section End */
-  /* ! FAQs Section Start */
-  /* ! FAQs Section End */
+  /* ! Coming Soon Section Start */
+.comingSoon{
+  width: 100%;
+}
+.comingSoon input{
+  font-size: 16px;
+}
+.comingSoon button{
+  font-size: 16px;
+}
+/* ! Coming Soon Section End */
+/* ! Contact Us Section Start */
+.ContactHeading h3{
+  font-size: 40px;
+}
+.ContactHeading p{
+  font-size: 16px;
+}
+.ContactHeading form input ,textarea{
+  font-size: 16px;
+}
+.ContactHeading button{
+  font-size: 16px;
+  border-radius: 20px;
+}
+/* ! Contact Us Section End */
   /* ! Footer Section Start */
   .footer1 .TandC {
     font-size: 18px;
