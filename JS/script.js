@@ -66,6 +66,36 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
+  let owl = $("#testimonialSlider").owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: true,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 3,
+        nav: true,
+      },
+    },
+  });
+
+  $(".sliderLeftBtn").click(function () {
+    owl.trigger("prev.owl.carousel");
+  });
+
+  $(".sliderRightBtn").click(function () {
+    owl.trigger("next.owl.carousel");
+  });
+});
+
 $("#zenviWorks").owlCarousel({
   loop: true,
   margin: 30,

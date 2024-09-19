@@ -220,7 +220,7 @@ header {
 /* ! How Zenvi Works Section End */
 /* ! Testimonial Section Start */
 .rightLeaf2 {
-  top: 10%;
+  top: 0%;
 }
 
 .testimonialHeading h3 {
@@ -248,20 +248,24 @@ header {
   top: 80%;
   transform: translate(-50%);
 }
-
 .clientCard p {
   font-size: 18px;
 }
 
 .clientCard h5 {
-  font-size: 32px;
+  font-size: 26px;
 }
 
 .clientCard .quote {
   top: -15%;
   left: 10%;
 }
-
+.main-itemBox{
+  padding-bottom: 220px;
+}
+#testimonialSlider .owl-dots .owl-dot.active span {
+  background-color: var(--primary-color);
+}
 /* ! Testimonial Section End */
 
 /* ! Why Choose Section Start */

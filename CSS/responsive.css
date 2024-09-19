@@ -28,7 +28,10 @@
   .clientCard h5 {
     font-size: 22px;
   }
-  /* ! Testimonial Section Start */
+  .main-itemBox{
+    padding-bottom: 0px;
+  }
+  /* ! Testimonial Section End */
   /* ! Coming Soon Section Start */
   .comingSoon input{
     width: 50%;
