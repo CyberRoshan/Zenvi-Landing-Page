@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+html, body{
+  overflow-x: hidden;
+}
+
 :root {
   --primary-color: #fd7436;
   --primary-shadow-color: rgba(253, 116, 54, 0.08);
@@ -71,6 +75,10 @@ header {
 
 .hero-section p {
   font-size: 24px;
+}
+.hero-mockup{
+  width: 455px;
+  
 }
 
 .curve {
@@ -139,6 +147,10 @@ header {
   left: 0;
   transform: translate(0%, -50%);
 }
+.feature_Smart_Phone{
+  position: relative;
+  left: -11%;
+}
 
 .feature_content h3 {
   font-size: 54px;
@@ -171,6 +183,7 @@ header {
 /* ! Daily Motivational Messages Section Start */
 .motivationMockup {
   right: -1.6%;
+  width: 754px;
 }
 
 .numbering2 {
@@ -193,6 +206,7 @@ header {
 }
 
 .howWorkDiv {
+  height: 55%;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -342,7 +356,7 @@ header {
 }
 .takeControlImg {
   position: absolute;
-  bottom: 0;
+  bottom: -8%;
 }
 /* ! Take Control Section End */
 /* ! FAQs Section Start */
